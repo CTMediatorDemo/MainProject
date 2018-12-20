@@ -7,8 +7,14 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'MainProject' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
- 
+
   # Private Pods
   pod 'HandyFrame'
+
+  pod "A_Category", :path => "../A_Category"
+  pod 'A', :path => "../A"
+
+  # A_Category 依赖了 CTMediator
+  #pod 'CTMediator'
 
 end
