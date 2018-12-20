@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <HandyFrame/UIView+LayoutMethods.h>
 #import <A_Category/CTMediator+A.h>
+#import <CTMediator/CTMediator.h>
 
 @interface ViewController ()
 
